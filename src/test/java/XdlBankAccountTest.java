@@ -11,6 +11,7 @@ public class XdlBankAccountTest {
         XdlBankAccountService accountService =  app.getBean("accountService",
         	XdlBankAccountService.class);
         System.out.println(accountService.login("xiaomage", "123"));
+		System.out.println(accountService.login("xiaomage", "123"));
 	}
 
 }
